@@ -15,7 +15,7 @@ function WriteMessage(){
           setClassifying(true);
     
           const response = await fetch('http://localhost:8080/api/v1/dalle', {
-            method: 'POST',
+            method: 'GET',
             headers: {
               'Content-Type': 'application/json'
             },
