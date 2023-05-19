@@ -1,5 +1,4 @@
-import react from 'react';
-import { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { auth } from '../firebase.config';
 import { db } from "../firebase.config";
 import {
@@ -10,7 +9,7 @@ import {
 
 
 
-function inbox(){
+function Inbox(){
     const user = auth();
     const userID = user.id;
     const collectionRef = collection(db, userID);
@@ -46,4 +45,4 @@ function inbox(){
 
 
 }
-export default inbox;
+export default Inbox;

@@ -2,7 +2,7 @@ import './App.css';
 
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Homes'
-import Inbox from './pages/inbox'
+import Inbox from './pages/Inbox'
 import WriteMessage from './pages/Writemessage';
 
 
